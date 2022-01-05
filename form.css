@@ -1,0 +1,39 @@
+#quize1 {
+    position: absolute;
+    z-index: 15;
+    margin-top: 2%;
+    margin-left: 27%;
+    background-color: whitesmoke;
+    position: relative;
+    border-radius: 10px;
+    padding-left: 5%;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 40%;
+    overflow: hidden;
+    box-shadow: gray, 10px;
+}
+
+.body {
+    position: center;
+    padding-left: 25%;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+}
+
+#btn {
+    position: relative;
+    width: 30%;
+    height: 25%;
+    margin-bottom: 15px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 10px;
+    color: black;
+    background: linear-gradient(to top left, #003399 0%, #00ffff 88%);
+}
+
+#timerText {
+    margin-left: 85%;
+    position: fixed;
+    font-size: 50px;
+}
